@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanna Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+    <!-- navbar section -->
+  <header> <nav class="nav-color">
+        <div class="menu-container nav-wrapper">
+            <div class="brand">
+                <a class="active" href="index.html">
+                    <img class="logoImg" src="images/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <ul class="nav-list">
+                <li><a href="#heroSection">Home</a>
+                </li>
+                <li><a href="#featureSection">Services</a></li>
+                <li><a href="#featureSection-t">Reviews</a></li>
+                <li><a href="#section">Contacts</a></li>
+                <li class="li-btn">
+                    <button class="btn btn-blue">
+                        <a href="#contact">Get Started</a>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav></header> 
+    <!-- hero section -->
+    <section class="heroSection" id="heroSection">
+        <div class="heroContnt">
+            <h5 class="heroHanding">Professional tool</h5>
+                <h1>Programing </h1>
+                <h1>Language Portal</h1>
+                <p class="heropara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum iusto aliquid,
+                    laudantium animi ad autem debitis soluta nesciunt modi quidem deserunt.
+                    Id assumenda hic inventore fugit ipsum quibusdam sed maiores.
+                </p>
+               <a href="#contact"> <button class="getStarted">
+                    Get Started
+                </button></a>
+               <a href="#contact"> <button class="readMore">
+                    Read More
+                </button></a>
+        </div>
+
+        <div class="heroImg">
+            <img class="imgHero" src="images/flat-lay-desktop-with-laptop-cup-coffee.jpg" alt="">
+        </div>
+    </section>
+    <!-- services section  -->
+    <div class="featureSection" id="featureSection">
+        <div class="ourFeature">
+            <h1>
+                <center>Our Services</center>
+                <hr>
+            </h1>
+            <p class="Featurepara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus est accusamus
+                hic optio debitis asperiores, dicta deserunt quos nesciunt quam aperiam dolore fuga reiciendis enim
+                laudantium id dolorum ad fugiat quidem laborum explicabo. Consequuntur ipsum voluptatibus, impedit
+                ducimus maiores autem.</p>
+        </div>
+        <!-- cards -->
+        <!-- <div class="flex"> -->
+            <div class="parentCard1">
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Optimized code</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt?</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-tablet-screen-button"></i>
+                    <h4>mobile friendly</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, numquam.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-brush"></i>
+                    <h4>unique styles</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusamus.</p>
+                </div>
+            </div>
+            <!-- <div></div> -->
+         
+        <!-- </div> -->
+    </div>
+
+       <!-- testimonials  section  -->
+       <div class="featureSection" id="featureSection-t">
+        <div class="ourFeature">
+            <h1>
+                <center>testimonials </center>
+                <hr>
+            </h1>
+        </div>
+        <!-- cards -->
+            <div class="parentCard1">
+                <div class="card">
+                    <i class="fa-solid fa-user"></i>
+                    <p><b>"</b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, nesciunt?<b>"</b></p>
+                    <h4>Optimized code</h4>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-user"></i>
+                    <p><b>"</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, numquam.<b>"</b></p>
+                    <h4>mobile friendly</h4>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-user"></i>
+                    <p><b>"</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, accusamus. <b>"</b></p>
+                    <h4>unique styles</h4>
+                </div>
+            </div>
+           
+    </div>
+    <!-- contact ussection -->
+    <div class="section" id="section">
+        <div class="sectionContent">
+            <h1 class="secHanding">Contact Us </h1>
+            <p class="secpara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum iusto aliquid, laudantium
+                animi ad autem debitis soluta nesciunt modi quidem deserunt.</p>
+            <button class="getStarted-c"  style="color: rgb(255, 255, 255); background-color: rgb(11 226 184);;">
+                Read More
+            </button>
+        </div>
+        <!-- contact us form -->
+        <div id="contact" class="contact-section">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+
+
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <p>Copyright &copy; 2024 All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
