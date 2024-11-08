@@ -311,9 +311,10 @@ footer img {
   display: none; 
   
 }
+
 @media (max-width: 768px) {
 
-    header .fa-bars {
+    header .fas fa-bars {
     display: block; 
     justify-content: flex-start;
 }
@@ -442,7 +443,7 @@ footer img {
     overflow-x: hidden;
   }
 
-    header .fa-bars {
+    header .fas fa-bars {
     display: block; 
     justify-content: flex-start;
 }
