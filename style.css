@@ -307,15 +307,23 @@ footer p {
 footer img {
   width: 3.06vw;
 }
-
+header .fa-bars {
+  display: none; 
+  
+}
 @media (max-width: 768px) {
 
+    header .fa-bars {
+    display: block; 
+    justify-content: flex-start;
+}
   .nav-color .menu-container .nav-list {
     flex-direction: column;
     /* text-align: left; */
     justify-content: left;
     font-size: 12px;
     gap:2px;
+    display: none;
   }
   .nav-list li{
     gap: 2px;
@@ -434,12 +442,17 @@ footer img {
     overflow-x: hidden;
   }
 
+    header .fa-bars {
+    display: block; 
+    justify-content: flex-start;
+}
   .nav-color .menu-container .nav-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 2vh;
     width: 100vw;
+    display: none;
   }
   .nav-color .nav-list ul li button .btn btn-blue{
     display: none;
